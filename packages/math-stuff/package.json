@@ -1,10 +1,9 @@
 {
   "name": "@lisadean/math-stuff",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "type": "module",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +17,9 @@
     "type": "git",
     "url": "git+https://github.com/lisadean/npm-workspaces-playground.git",
     "directory": "packages/math-stuff"
+  },
+  "dependencies": {
+    "@lisadean/is-even": "file:../is-even",
+    "@lisadean/is-odd": "file:../is-odd"
   }
 }
